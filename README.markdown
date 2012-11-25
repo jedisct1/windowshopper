@@ -48,7 +48,7 @@ Usage
 
     require "windowshopper"
     
-    shop = WindowShopper.store("Family Mart")
+    shop = WindowShopper.store("FamilyMart")
     
     shopper1 = shop.new_shopper
     shopper1.move_to(1)
