@@ -48,9 +48,9 @@ Usage
 
     require "windowshopper"
     
-    shop = WindowShopper.store("FamilyMart")
+    store = WindowShopper.store("FamilyMart")
     
-    shopper1 = shop.new_shopper
+    shopper1 = store.new_shopper
     shopper1.move_to(1)
     shopper1.move_to(2)
     shopper1.buy("jack daniel's")
@@ -58,7 +58,7 @@ Usage
     shopper1.move_to(4)
     shopper1.buy("coke")
     
-    shopper2 = shop.new_shopper
+    shopper2 = store.new_shopper
     shopper2.move_to(1)
     shopper2.move_to(2)
     shopper2.buy("jack daniel's")
