@@ -64,5 +64,5 @@ Usage
     shopper2.buy("jack daniel's")
     shopper2.move_to(3)
     
-    puts shopper2.predict # {:locations=>[4], :goals=>["apple"]}
+    puts shopper2.predict # {:locations=>[4], :goals=>["coke"]}
 
