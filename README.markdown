@@ -7,8 +7,8 @@ next.
 Description
 -----------
 
-Given a set of previously visited locations, and actions (namely, item `g` has
-been bought at location `l`), WindowShopper tries to predict where the
+Given a set of previously visited locations, and actions (namely, item _gx_ has
+been bought at location _ly_), WindowShopper tries to predict where the
 shopper is likely to go next, and what he is likely to buy.
 
 This library is based on the [In-store shopping activity
