@@ -39,7 +39,7 @@ What, no persistence? That's lame
 
 It is. But a naive bayesian network is compact, and easy to persist and
 update. The way the network is currently stored in memory makes it
-easy to use key/value store instead.
+easy to use a key/value store instead.
 If you are actually planning to use that code, drop me a line and I'll add
 persistence.
 
