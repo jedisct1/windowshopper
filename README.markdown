@@ -53,15 +53,15 @@ Usage
     shopper1 = shop.new_shopper
     shopper1.move_to(1)
     shopper1.move_to(2)
-    shopper1.buy("fish")
+    shopper1.buy("jack daniel's")
     shopper1.move_to(3)
     shopper1.move_to(4)
-    shopper1.buy("apple")
+    shopper1.buy("coke")
     
     shopper2 = shop.new_shopper
     shopper2.move_to(1)
     shopper2.move_to(2)
-    shopper2.buy("fish")
+    shopper2.buy("jack daniel's")
     shopper2.move_to(3)
     
     puts shopper2.predict # {:locations=>[4], :goals=>["apple"]}
